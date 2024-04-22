@@ -1,0 +1,31 @@
+#sports madlibs
+
+name = input("name? " )
+team_name = input("Team name? ")
+opp_team = input("Another Team name? ")
+num = int(input("Number? "))
+adjective = input("Adjective? ")
+verb = input("verb? ")
+noun = input("noun? ")
+male_celebrity = input("Male celebrity? ")
+country_name = input("name of country? ")
+adverb = input("adverb? ")
+place = input("Location? ")
+funny_word = input("funny word? ")
+verb_ing = input(" verb with ing on the end? ")
+liquid = input("liquid? ")
+sport = input("sport? ")
+noun_s = input("noun with s on the end? ")
+
+madlibs = f"Last night at {name} Stadium, {team_name} played against {opp_team}. It was the {num} game of the Euro League Championship. \
+All the players were {adjective}. The {adjective} coach screamed at the players that it was do or {verb} \
+If they {verb} the game, then their {noun} would not be in the Final {num}. \
+\n Our best player, {male_celebrity} was sick with the {country_name} flu and had to stay at {place} to get {adjective}. So the coach chose {name} to be the {noun} of the team. He plays {adjective} and usually misses all his {num} point shots. \
+The rest of the team were very {adjective}. They said that the {adjective} team needed {name} and that he runs {adverb} down the {place} and never misses a {noun}. \
+\n The game began {adverb}. The crowd was shouting: {funny_word} so that the team would {verb}. At half time the score was {num} to {num}. We went into the {place} and everyone was {verb_ing}. \
+We wanted to win the {noun}. The coach said: Don't be {adjective}. \nWe will win the {noun} if we have to drink {liquid} to do it! At the end of the game we were the {noun_s} and we had a chance to be in the Final of the Euro League {sport} game."
+
+
+
+
+print(madlibs)
